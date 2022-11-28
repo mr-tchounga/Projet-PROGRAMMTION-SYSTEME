@@ -11,7 +11,7 @@ namespace PROG_SYS
 
         }
 
-        private string cnxString = "Data Source=MR-T;Initial Catalog=Restau;Integrated Security=True";
+        private readonly string cnxString = "Data Source=MR-T;Initial Catalog=Restau;Integrated Security=True";
 
         public void Connection(string query)
         {
@@ -21,8 +21,16 @@ namespace PROG_SYS
             if (cnx.State == System.Data.ConnectionState.Open)
             {
                 SqlCommand cmd = new SqlCommand(query, cnx);
-                cmd.ExecuteNonQuery();
-                MessageBox.Show("Request Successfull!");
+                try
+                {
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("Request Successfull!");
+                }
+                catch(SqlException e)
+                {
+                    MessageBox.Show("AN ERROR OCCURED");
+                }  
+
             }
 
         }

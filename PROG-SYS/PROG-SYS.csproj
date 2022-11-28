@@ -47,6 +47,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConnectionDB.cs" />
+    <Compile Include="Controller\Reserve_controller.cs" />
+    <Compile Include="Controller\Command_controller.cs" />
+    <Compile Include="Controller\Kitchen_stuff_controller.cs" />
+    <Compile Include="Controller\Table_material_controller.cs" />
+    <Compile Include="Controller\Recipe_controller.cs" />
+    <Compile Include="Controller\Client_controller.cs" />
+    <Compile Include="Controller\TableRow_controller.cs" />
+    <Compile Include="Controller\Staff_controller.cs" />
+    <Compile Include="Controller\Table_controller.cs" />
+    <Compile Include="Controller\Material_controller.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="View\Material\Material_view.cs">
@@ -79,6 +89,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Model\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

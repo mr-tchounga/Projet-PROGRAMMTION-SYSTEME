@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using PROG_SYS.Controller;
+
 namespace PROG_SYS.View.Material
 {
     public partial class Material_view : Form
@@ -17,18 +19,13 @@ namespace PROG_SYS.View.Material
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-
         private void button1_Click(object sender, EventArgs e)
         {
-            string query = "SELECT * FROM Material";
-
-            ConnectionDB cnx = new ConnectionDB();
-            cnx.Connection(query);
+            Material_controller material = new Material_controller();
+            material.AddMaterial("'" + name.Text.ToString() + "'", "'" + totalQty.Text.ToString() + "'", "'" + qtyAvailable.Text.ToString() + "'");
         }
+
+
+        
     }
 }

@@ -48,7 +48,6 @@
             this.label1.Size = new System.Drawing.Size(143, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Add Material";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label_name
             // 
@@ -87,6 +86,7 @@
             this.name.Name = "name";
             this.name.Size = new System.Drawing.Size(303, 30);
             this.name.TabIndex = 4;
+            this.name.Text = "m";
             // 
             // totalQty
             // 
@@ -115,7 +115,7 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form1
+            // Material_view
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -129,7 +129,7 @@
             this.Controls.Add(this.label_totalQty);
             this.Controls.Add(this.label_name);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "Material_view";
             this.Text = "Material";
             this.ResumeLayout(false);
             this.PerformLayout();
