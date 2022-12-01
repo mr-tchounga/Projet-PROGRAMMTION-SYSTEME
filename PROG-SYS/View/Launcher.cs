@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace PROG_SYS.View
 {
-    public partial class Form2 : Form
+    public partial class Launcher : Form
     {
-        public Form2()
+        public Launcher()
         {
             InitializeComponent();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form1 gestion = new Form1();
+            DBManager gestion = new DBManager();
             gestion.Visible = true;
             this.Visible = false;
         }

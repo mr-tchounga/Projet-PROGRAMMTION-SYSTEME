@@ -1,0 +1,7 @@
+C:\Users\Mr TCHOUNGA\Documents\UCAC-ICAM\X3\PROJETs\3 - Programmation système et programmation objet\Group Ressources\Proj Anonymous\PROG-SYS\obj\x86\Debug\Restau.vbprojAssemblyReference.cache
+C:\Users\Mr TCHOUNGA\Documents\UCAC-ICAM\X3\PROJETs\3 - Programmation système et programmation objet\Group Ressources\Proj Anonymous\PROG-SYS\obj\x86\Debug\Restau.Resources.resources
+C:\Users\Mr TCHOUNGA\Documents\UCAC-ICAM\X3\PROJETs\3 - Programmation système et programmation objet\Group Ressources\Proj Anonymous\PROG-SYS\obj\x86\Debug\Restau.DBManager.resources
+C:\Users\Mr TCHOUNGA\Documents\UCAC-ICAM\X3\PROJETs\3 - Programmation système et programmation objet\Group Ressources\Proj Anonymous\PROG-SYS\obj\x86\Debug\Restau.Launcher.resources
+C:\Users\Mr TCHOUNGA\Documents\UCAC-ICAM\X3\PROJETs\3 - Programmation système et programmation objet\Group Ressources\Proj Anonymous\PROG-SYS\obj\x86\Debug\Restau.Material_view.resources
+C:\Users\Mr TCHOUNGA\Documents\UCAC-ICAM\X3\PROJETs\3 - Programmation système et programmation objet\Group Ressources\Proj Anonymous\PROG-SYS\obj\x86\Debug\Restau.vbproj.GenerateResource.cache
+C:\Users\Mr TCHOUNGA\Documents\UCAC-ICAM\X3\PROJETs\3 - Programmation système et programmation objet\Group Ressources\Proj Anonymous\PROG-SYS\obj\x86\Debug\Restau.vbproj.CoreCompileInputs.cache

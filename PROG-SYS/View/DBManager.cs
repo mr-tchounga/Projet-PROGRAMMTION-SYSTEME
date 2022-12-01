@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PROG_SYS.View
 {
-    public partial class Form1 : Form
+    public partial class DBManager : Form
     {
-        public Form1()
+        public DBManager()
         {
             InitializeComponent();
         }
@@ -24,9 +24,19 @@ namespace PROG_SYS.View
 
         private void button6_Click(object sender, EventArgs e)
         {
-            Form2 accueil = new Form2();
+            Launcher accueil = new Launcher();
             accueil.Visible = true;
             this.Visible = false;
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace PROG_SYS.View
 {
-    partial class Form2
+    partial class Launcher
     {
         /// <summary>
         /// Required designer variable.
@@ -36,10 +36,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(167, 91);
+            this.label1.Location = new System.Drawing.Point(196, 91);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(327, 26);
+            this.label1.Size = new System.Drawing.Size(265, 22);
             this.label1.TabIndex = 0;
             this.label1.Text = "RESTAURANT SIMULATOR ";
             // 
@@ -67,7 +67,7 @@
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(673, 392);
@@ -75,7 +75,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Form2";
             this.Text = "RESTAURANT SIMULATOR";
             this.ResumeLayout(false);

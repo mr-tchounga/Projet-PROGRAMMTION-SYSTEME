@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{9DDB37AF-5F98-4747-A7A4-A5E7AB62BD1C}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>Restau</RootNamespace>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Console</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".vs\PROG-SYS\v16\.suo" />
+    <None Include=".vs\ProjectSettings.json" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ConnectionDB.cs" />
+    <Content Include="Controller\Client_controller.cs" />
+    <Content Include="Controller\Command_controller.cs" />
+    <Content Include="Controller\Kitchen_stuff_controller.cs" />
+    <Content Include="Controller\Material_controller.cs" />
+    <Content Include="Controller\Recipe_controller.cs" />
+    <Content Include="Controller\Reserve_controller.cs" />
+    <Content Include="Controller\Staff_controller.cs" />
+    <Content Include="Controller\TableRow_controller.cs" />
+    <Content Include="Controller\Table_controller.cs" />
+    <Content Include="Controller\Table_material_controller.cs" />
+    <Content Include="Program.cs" />
+    <Content Include="Properties\AssemblyInfo.cs" />
+    <Content Include="Properties\Resources.Designer.cs" />
+    <Content Include="Properties\Settings.Designer.cs" />
+    <Content Include="Resources\4 places.png" />
+    <Content Include="Resources\8 places.png" />
+    <Content Include="Resources\chaise.png" />
+    <Content Include="Resources\client.png" />
+    <Content Include="Resources\four.png" />
+    <Content Include="Resources\FRIGO.png" />
+    <Content Include="Resources\frigob.png" />
+    <Content Include="Resources\lave linge.png" />
+    <Content Include="Resources\personne.png" />
+    <Content Include="Resources\plan a.png" />
+    <Content Include="Resources\plan b.png" />
+    <Content Include="Resources\plan c.png" />
+    <Content Include="Resources\plan d.png" />
+    <Content Include="Resources\plats.png" />
+    <Content Include="Resources\plonge.png" />
+    <Content Include="Resources\table 4 places.png" />
+    <Content Include="Resources\table.png" />
+    <Content Include="View\DBManager.cs" />
+    <Content Include="View\DBManager.Designer.cs" />
+    <Content Include="View\Launcher.cs" />
+    <Content Include="View\Launcher.Designer.cs" />
+    <Content Include="View\Material_view.cs" />
+    <Content Include="View\Material_view.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx" />
+    <EmbeddedResource Include="View\DBManager.resx" />
+    <EmbeddedResource Include="View\Launcher.resx" />
+    <EmbeddedResource Include="View\Material_view.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\Restau\v16\" />
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

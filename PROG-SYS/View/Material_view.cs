@@ -36,7 +36,7 @@ namespace PROG_SYS.View
 
         private void stop_Click(object sender, EventArgs e)
         {
-            Form2 accueil = new Form2();
+            Launcher accueil = new Launcher();
             accueil.Visible = true;
             this.Visible = false;
 
