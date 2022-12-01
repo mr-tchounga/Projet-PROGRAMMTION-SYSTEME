@@ -8,3 +8,10 @@ C:\Users\Mr TCHOUNGA\Documents\UCAC-ICAM\X3\PROJETs\3 - Programmation système e
 C:\Users\Mr TCHOUNGA\Documents\UCAC-ICAM\X3\PROJETs\3 - Programmation système et programmation objet\Group Ressources\Proj Anonymous\Projet-PROGRAMMTION-SYSTEME\PROG-SYS\obj\Debug\PROG-SYS.exe
 C:\Users\Mr TCHOUNGA\Documents\UCAC-ICAM\X3\PROJETs\3 - Programmation système et programmation objet\Group Ressources\Proj Anonymous\Projet-PROGRAMMTION-SYSTEME\PROG-SYS\obj\Debug\PROG-SYS.pdb
 C:\Users\Mr TCHOUNGA\Documents\UCAC-ICAM\X3\PROJETs\3 - Programmation système et programmation objet\Group Ressources\Proj Anonymous\Projet-PROGRAMMTION-SYSTEME\PROG-SYS\obj\Debug\PROG_SYS.View.Material.Material_view.resources
+C:\Users\Erwann-Axel\Desktop\projet programmation\realisation\Projet-PROGRAMMTION-SYSTEME\PROG-SYS\obj\Debug\PROG-SYS.csprojAssemblyReference.cache
+C:\Users\Erwann-Axel\Desktop\projet programmation\realisation\Projet-PROGRAMMTION-SYSTEME\PROG-SYS\obj\Debug\PROG_SYS.Properties.Resources.resources
+C:\Users\Erwann-Axel\Desktop\projet programmation\realisation\Projet-PROGRAMMTION-SYSTEME\PROG-SYS\obj\Debug\PROG_SYS.View.Material.Material_view.resources
+C:\Users\Erwann-Axel\Desktop\projet programmation\realisation\Projet-PROGRAMMTION-SYSTEME\PROG-SYS\obj\Debug\PROG-SYS.csproj.GenerateResource.cache
+C:\Users\Erwann-Axel\Desktop\projet programmation\realisation\Projet-PROGRAMMTION-SYSTEME\PROG-SYS\obj\Debug\PROG-SYS.csproj.CoreCompileInputs.cache
+C:\Users\Erwann-Axel\Desktop\projet programmation\realisation\Projet-PROGRAMMTION-SYSTEME\PROG-SYS\obj\Debug\PROG-SYS.exe
+C:\Users\Erwann-Axel\Desktop\projet programmation\realisation\Projet-PROGRAMMTION-SYSTEME\PROG-SYS\obj\Debug\PROG-SYS.pdb
