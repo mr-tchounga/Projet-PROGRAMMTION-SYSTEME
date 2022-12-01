@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-using PROG_SYS.View.Material;
+using PROG_SYS.View;
 
 namespace PROG_SYS
 {
@@ -18,7 +18,7 @@ namespace PROG_SYS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Material_view());
+            Application.Run(new Form2());
         }
     }
 }

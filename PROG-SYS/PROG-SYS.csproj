@@ -59,6 +59,18 @@
     <Compile Include="Controller\Material_controller.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\Material\Material_view.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,7 +85,14 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="View\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\Material\Material_view.resx">
       <DependentUpon>Material_view.cs</DependentUpon>
     </EmbeddedResource>
@@ -92,6 +111,57 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Model\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chaise.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\client.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\four.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FRIGO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frigob.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lave linge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plan a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plan b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plan c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plan d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plats.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plonge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\table.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4 places.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8 places.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\table 4 places.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\personne.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

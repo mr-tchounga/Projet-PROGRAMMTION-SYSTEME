@@ -2,8 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\PROG-SYS",
-    "\\PROG-SYS\\interface"
+    "\\PROG-SYS\\View\\Material"
   ],
-  "SelectedNode": "\\PROG-SYS\\interface\\Form1.Designer.cs",
+  "SelectedNode": "\\PROG-SYS\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
