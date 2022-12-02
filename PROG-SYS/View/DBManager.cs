@@ -38,5 +38,10 @@ namespace PROG_SYS.View
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            clients detail = new clients();
+        }
     }
 }

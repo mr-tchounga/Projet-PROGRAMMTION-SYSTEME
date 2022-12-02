@@ -1,10 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Properties",
-    "\\View",
-    "\\View\\Material"
+    "\\View"
   ],
-  "SelectedNode": "\\View\\Material\\Material_view.cs",
+  "SelectedNode": "\\PROG-SYS.sln",
   "PreviewInSolutionExplorer": false
 }

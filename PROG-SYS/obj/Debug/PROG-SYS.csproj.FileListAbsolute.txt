@@ -22,3 +22,6 @@ C:\Users\Erwann-Axel\Desktop\projet programmation\realisation\Projet-PROGRAMMTIO
 C:\Users\Mr TCHOUNGA\Documents\UCAC-ICAM\X3\PROJETs\3 - Programmation système et programmation objet\Group Ressources\Proj Anonymous\Projet-PROGRAMMTION-SYSTEME\PROG-SYS\obj\Debug\PROG_SYS.View.DBManager.resources
 C:\Users\Mr TCHOUNGA\Documents\UCAC-ICAM\X3\PROJETs\3 - Programmation système et programmation objet\Group Ressources\Proj Anonymous\Projet-PROGRAMMTION-SYSTEME\PROG-SYS\obj\Debug\PROG_SYS.View.Launcher.resources
 C:\Users\Mr TCHOUNGA\Documents\UCAC-ICAM\X3\PROJETs\3 - Programmation système et programmation objet\Group Ressources\Proj Anonymous\Projet-PROGRAMMTION-SYSTEME\PROG-SYS\obj\Debug\PROG_SYS.View.Material_view.resources
+C:\Users\Erwann-Axel\Desktop\projet programmation\realisation\Projet-PROGRAMMTION-SYSTEME\PROG-SYS\obj\Debug\PROG_SYS.View.clients.resources
+C:\Users\Erwann-Axel\Desktop\projet programmation\realisation\Projet-PROGRAMMTION-SYSTEME\PROG-SYS\obj\Debug\PROG_SYS.View.DBManager.resources
+C:\Users\Erwann-Axel\Desktop\projet programmation\realisation\Projet-PROGRAMMTION-SYSTEME\PROG-SYS\obj\Debug\PROG_SYS.View.Launcher.resources
